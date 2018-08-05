@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DLLInjectionDector">
+      <UniqueIdentifier>{2f491ade-0c9d-487b-bbff-176ff2f854be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DLLInjectionDector">
+      <UniqueIdentifier>{92a547a1-ce75-4305-9544-6ff162040c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FailurHandler">
+      <UniqueIdentifier>{e22cac8c-af34-42d7-9f7a-7ac3f4877c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DriverLoader">
+      <UniqueIdentifier>{f39a3ee5-9da3-41d8-aaa7-2a3474ff9d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DriverLoader">
+      <UniqueIdentifier>{0f0a98ec-e089-4a7e-90d3-bfe0659cb4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver HeartBeat">
+      <UniqueIdentifier>{d4ec416c-7386-4c7e-936d-ced70aa88569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Driver HeartBeat">
+      <UniqueIdentifier>{e2635a94-d45c-4226-a464-24808c070097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checksum">
+      <UniqueIdentifier>{3213739f-6379-4029-8067-3d1913193d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checksum">
+      <UniqueIdentifier>{6e8c5bc9-2992-4be2-90dc-08aadf822d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FailurHandler">
+      <UniqueIdentifier>{42ebd158-a219-4a5d-ad67-439309f9795b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Anti Debug">
+      <UniqueIdentifier>{af5ace41-583b-4f29-85ce-07d9f2b390c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anti Debug">
+      <UniqueIdentifier>{ae51cdfd-94cd-4f91-bd8a-7e279e5e6a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utlis">
+      <UniqueIdentifier>{549d5d72-9703-4e5f-973d-66b5bf7c8ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utlis">
+      <UniqueIdentifier>{884713d6-c810-40fe-8573-b0219295180c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Named Pipe">
+      <UniqueIdentifier>{54a7e68a-5fb4-4430-95bd-55dfc3b32ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Named Pipe">
+      <UniqueIdentifier>{2b7b11b4-c237-4ca4-9bdd-c70c8667c7bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectionDetector\ThreadEnumerator.h">
+      <Filter>Header Files\DLLInjectionDector</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectionDetector\Utils.h">
+      <Filter>Header Files\DLLInjectionDector</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectorDector.h">
+      <Filter>Header Files\DLLInjectionDector</Filter>
+    </ClInclude>
+    <ClInclude Include="AbortFailureDetects.h">
+      <Filter>Header Files\FailurHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverLoader\driver.h">
+      <Filter>Header Files\DriverLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverIO.h">
+      <Filter>Header Files\DriverLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Formulas.h">
+      <Filter>Header Files\Driver HeartBeat</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverIORequests.h">
+      <Filter>Header Files\DriverLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>Header Files\Checksum</Filter>
+    </ClInclude>
+    <ClInclude Include="Anti Debug.h">
+      <Filter>Header Files\Anti Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Utlis.h">
+      <Filter>Header Files\Utlis</Filter>
+    </ClInclude>
+    <ClInclude Include="NamePipe.h">
+      <Filter>Header Files\Named Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalSignatureChecker.h">
+      <Filter>Header Files\Checksum</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAC-V2-Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\DLLCheck.cpp">
+      <Filter>Source Files\DLLInjectionDector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\ThreadCheck.cpp">
+      <Filter>Source Files\DLLInjectionDector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\ThreadEnumerator.cpp">
+      <Filter>Source Files\DLLInjectionDector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\Utils.cpp">
+      <Filter>Source Files\DLLInjectionDector</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverLoader\driver.cpp">
+      <Filter>Source Files\DriverLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Formulas.cpp">
+      <Filter>Source Files\Driver HeartBeat</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverIORequests.cpp">
+      <Filter>Source Files\Driver HeartBeat</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.cpp">
+      <Filter>Source Files\Checksum</Filter>
+    </ClCompile>
+    <ClCompile Include="AbortFailureDetects.cpp">
+      <Filter>Source Files\FailurHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Anti Debug.cpp">
+      <Filter>Source Files\Anti Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Utlis.cpp">
+      <Filter>Source Files\Utlis</Filter>
+    </ClCompile>
+    <ClCompile Include="NamePipe.cpp">
+      <Filter>Source Files\Named Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalSignatureChecker.cpp">
+      <Filter>Source Files\Checksum</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
