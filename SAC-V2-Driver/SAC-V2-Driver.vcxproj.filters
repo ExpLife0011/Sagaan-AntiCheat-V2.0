@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BlackBone">
+      <UniqueIdentifier>{55b34475-876b-496f-b9a5-159387d98d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver IO">
+      <UniqueIdentifier>{c3203e51-7ad9-47d8-ac9d-cbd857d765a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Formula">
+      <UniqueIdentifier>{a6e57353-f852-45e0-ba0b-a1df01330e72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="SAC-V2-Driver.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\Dispatch.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\Inject.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\ldrreloc.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\Loader.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\MMap.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\NotifyRoutine.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\Private.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\Remap.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\Routines.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\Utils.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\VadHelpers.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBone\VadRoutines.c">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlackBone\Imports.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\Loader.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\NativeEnums.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\NativeStructs.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\NativeStructs7.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\NativeStructs8.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\NativeStructs10.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\NativeStructs81.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\PEStructs.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\Private.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\Remap.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\Routines.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\Utils.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\VadHelpers.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBone\VadRoutines.h">
+      <Filter>Header Files\BlackBone</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverIO.h">
+      <Filter>Header Files\Driver IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Formula.h">
+      <Filter>Header Files\Formula</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

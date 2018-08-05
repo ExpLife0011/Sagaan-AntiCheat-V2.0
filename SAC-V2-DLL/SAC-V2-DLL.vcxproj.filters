@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Injector Detector">
+      <UniqueIdentifier>{a91e449c-ab08-465d-a708-478538896676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Injector Detector">
+      <UniqueIdentifier>{b36dc840-f5b7-4010-93b7-659f816d30a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extra">
+      <UniqueIdentifier>{8f13f1b7-c50c-46b1-86d1-75a53a2d206e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extra">
+      <UniqueIdentifier>{69206b39-5adb-464a-98f1-bad249d7f10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Error Handler">
+      <UniqueIdentifier>{3662cec1-c8ff-4464-920e-899af0895055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Error Handler">
+      <UniqueIdentifier>{f6382e83-15c0-451b-acf1-5633dcdfcd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DriverIO">
+      <UniqueIdentifier>{029f3d6f-c681-42a8-bbd7-74cb5d506829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DriverIO">
+      <UniqueIdentifier>{2a3e9986-1dfe-44af-bb19-140667023284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NamedPipe">
+      <UniqueIdentifier>{b3fe8d03-24d2-4dcb-b046-e9937fc7a66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NamedPipe">
+      <UniqueIdentifier>{bb7a2933-3e7f-4ab1-875b-d4ec0a312e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Whitelisted DLLS">
+      <UniqueIdentifier>{b12029e7-a221-4eb2-b141-ed1c0bc4ed43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Whitelisted DLLS">
+      <UniqueIdentifier>{21214fba-604c-4c06-a8b4-e96d371b903f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectionDetector\DLLInjectorDector.h">
+      <Filter>Header Files\Injector Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectionDetector\ThreadEnumerator.h">
+      <Filter>Header Files\Injector Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectionDetector\Utils.h">
+      <Filter>Header Files\Injector Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLInjectorDector.h">
+      <Filter>Header Files\Injector Detector</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadIDs.h">
+      <Filter>Header Files\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>Header Files\Error Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverIO.h">
+      <Filter>Header Files\DriverIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver Request.h">
+      <Filter>Header Files\DriverIO</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>Header Files\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="NamePipe.h">
+      <Filter>Header Files\NamedPipe</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteListedDLL.h">
+      <Filter>Header Files\Whitelisted DLLS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAC-V2-DLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\DLLCheck.cpp">
+      <Filter>Source Files\Injector Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\ThreadCheck.cpp">
+      <Filter>Source Files\Injector Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\ThreadEnumerator.cpp">
+      <Filter>Source Files\Injector Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLInjectionDetector\Utils.cpp">
+      <Filter>Source Files\Injector Detector</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadIDs.cpp">
+      <Filter>Source Files\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>Source Files\Error Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>Source Files\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver Request.cpp">
+      <Filter>Source Files\DriverIO</Filter>
+    </ClCompile>
+    <ClCompile Include="NamePipe.cpp">
+      <Filter>Source Files\NamedPipe</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteListedDLL.cpp">
+      <Filter>Source Files\Whitelisted DLLS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
